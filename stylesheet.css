@@ -1,0 +1,57 @@
+/*You know What this is*/
+body {
+        font-family: "Lucida Console", Monaco, monospace;
+    color:rgba(0,0,0,0.7);
+}
+/* For heading*/
+div {
+        
+    text-align: center;
+    color: white;
+    background:rgba(0,0,0,0.7);
+    height: 70px;
+    font-size: 30px;
+    padding-top: 33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+#header{
+    
+}
+/*First line*/
+p {
+    display: inline-block;
+}
+/*For the input feilds*/
+input{
+    position: relative;
+    margin-left: 300px;
+    border:2px solid #46C9B6;
+   
+    
+}
+/*The button*/
+.button{
+     
+    background-color: #46C9B6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 370px;
+    margin-top: 300px;
+    display: inline-block;
+}
+button:hover{
+    opacity:0.5;
+}
+ 
+

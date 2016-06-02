@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Gpa</title>
+        <style>
+           body {
+               font-family: "Lucida Console", Monaco, monospace;
+                color:rgba(0,0,0,0.7);
+                }
+            p{
+                font-size: 50px;
+                margin-top: 340px;
+                margin-left: 400px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        
+        <p id="finalAnswer"></p>
+    
+    <script>
+        var queryString = decodeURIComponent(window.location.search);
+        queryString = queryString.substring(1);
+        var queries = queryString.split("?");    
+        document.getElementById("finalAnswer").innerHTML="Your GPA = " + queries;
+
+        
+    </script>
+    </body>
+</html>

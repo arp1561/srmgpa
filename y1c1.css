@@ -1,0 +1,112 @@
+body {
+        font-family: "Lucida Console", Monaco, monospace;
+    color:rgba(0,0,0,0.7);
+}
+.HEADER{
+        
+    text-align: center;
+    color: white;
+    background:rgba(0,0,0,0.7);
+    height: 70px;
+    font-size: 30px;
+    padding-top: 33px;
+    
+}
+div {
+    
+}
+article{
+    border: 3px solid rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+.credits{
+    margin-top:17px;
+    color:rgba(0,0,0,0.5);
+    float:right;
+}
+p{
+    display: inline-block;
+}
+/*SPACING FOR SPANS*/
+
+#oneOne{
+    margin-left: 250px;
+}
+#twoOne{
+    margin-left:422px; 
+}
+#threeOne{
+    margin-left: 402px;
+}
+#fourOne{
+    margin-left: 250px;
+}
+#fiveOne{
+    margin-left: 200px;
+}
+#sixOne{
+    margin-left: 265px;
+}
+#sevenOne{
+    margin-left: 362px;
+}
+#eightOne{
+    margin-left: 362px;
+}
+#nineOne{
+    margin-left: 342px;
+}
+#tenOne{
+    margin-left: 322px;
+}
+#elevenOne{
+    margin-left: 272px;
+}
+.button{
+     background-color: #46C9B6;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    border-radius:100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: -25px;/*
+    margin-bottom: 30px;*/
+    display: inline-block;
+    height:40px;
+    width:40px;
+    
+}
+.button:active{
+    border:0px;
+}
+.button:focus{
+    border:0px;
+}
+.button:hover{
+    opacity: 0.7;
+}
+.buttonRect{
+     
+    background-color: #46C9B6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 420px;
+    margin-top: 20px;
+    display: inline-block;
+}
+#beforeFinal{
+    margin-left: 620px;
+}
